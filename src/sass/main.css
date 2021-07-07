@@ -152,4 +152,5 @@ button.btn-load:hover::after {
 
 .searchBtn {
   margin-top: 20px;
+  cursor: pointer;
 }
