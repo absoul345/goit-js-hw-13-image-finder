@@ -4,5 +4,6 @@ export default function getRefs() {
         articlesConatiner: document.querySelector('.gallery'),
         loadMoreBtn: document.querySelector('.btn-load'),
         element: document.getElementById('my-element-selector'),
+        searchBtn: document.querySelector('.searchBtn'),
     }
 }

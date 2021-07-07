@@ -61,8 +61,8 @@ body {
   margin: 0 auto;
 }
 
-button,
-button::after {
+button.btn-load,
+button.btn-load::after {
   width: 380px;
   height: 86px;
   font-size: 36px;
@@ -75,9 +75,10 @@ button::after {
   box-shadow: 6px 0px 0px #00e6f6;
   outline: transparent;
   position: relative;
+  cursor: pointer;
 }
 
-button::after {
+button.btn-load::after {
   --slice-0: inset(50% 50% 50% 50%);
   --slice-1: inset(80% -6px 0 0);
   --slice-2: inset(50% -6px 30% 0);
@@ -97,7 +98,7 @@ button::after {
   clip-path: var(--slice-0);
 }
 
-button:hover::after {
+button.btn-load:hover::after {
   animation: 1s glitch;
   animation-timing-function: steps(2, end);
 }
@@ -147,4 +148,8 @@ button:hover::after {
     clip-path: var(--slice-1);
     transform: translate(0);
   }
+}
+
+.searchBtn {
+  margin-top: 20px;
 }

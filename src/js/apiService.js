@@ -30,4 +30,5 @@ export default class photoApiService {
     set query(newQuary) {
         this.searchQuery = newQuary;
     }
+
 }
