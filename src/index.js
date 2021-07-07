@@ -44,7 +44,7 @@ function onSearch(e) {
             refs.loadMoreBtn.classList.remove('is-hidden');
         }
         if (articles.length === 0) {
-            alert('Photo not fount!');
+            alert('Photo not found!');
         }
         clearArticlesContainer();
         markupArticlesContainer(articles);
